@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 * {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -5,7 +8,7 @@ body {
     margin: 0%;
 }
 /*#region page1*/
-#page1 {
+#homePage {
     background-color:rgb(18, 122, 159);
     background-size: 100%;
     width: 100vw;
@@ -20,6 +23,7 @@ body {
     z-index: 999;
     width: 100vw;
     height: 12%;
+    box-shadow: 5px 10px #3023233e;
 }
 #titleNevbar {
     font-size: 2rem;
@@ -121,7 +125,7 @@ body {
 
 
 
-#page2 {
+#aboutPage {
     background-color: white;
     width: 100vw;
     height: 100vh;
@@ -326,7 +330,7 @@ i {
 }
 /*#endregion*/
 
-#page3 {
+#servisesPage {
     background-color:rgb(18, 122, 159);
     background-size: 100%;
     width: 100vw;
@@ -370,7 +374,7 @@ i {
 
 
 
-#page4 {
+#hireMePage {
     background-size: 100%;
     width: 100vw;
     height: 100vh;
@@ -485,15 +489,15 @@ color:blue;
     align-items: center
 
 }
-#page3{
+#servisesPage{
 height: 130%;
 }
-#page4{
+#hireMePage{
     height: 130%;
     }
 #buttonDownload {
     width: 100%;
     margin-left: 5%;
-    
+
 }
 }
