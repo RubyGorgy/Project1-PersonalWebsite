@@ -1,0 +1,499 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    margin: 0%;
+}
+/*#region page1*/
+#page1 {
+    background-color:rgb(18, 122, 159);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+#nevbar {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(18, 122, 159);
+    position: fixed;
+    z-index: 999;
+    width: 100vw;
+    height: 12%;
+}
+#titleNevbar {
+    font-size: 2rem;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    
+}
+.nevbarButtons:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#allButtons {
+    width: 50%;
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.nevbarButtons{
+    color: white;
+    text-decoration: none;
+
+}
+#itemsFirstPage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+#HireMe {
+    display: flex;
+    color: white;
+    font-size: 1.4rem;
+    width: 60%;
+    margin: 0%;
+    margin-left: 15%;
+    justify-content: space-evenly;
+}
+#h1HireMe {
+    margin: 0%;
+}
+
+#underLineHireMe {
+    display: flex;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    justify-content: space-evenly;
+    float: left;
+    letter-spacing: 0.5rem;
+    margin-top: 1%;
+    margin-left: 2vw;
+}
+
+#buttonProtfolio{
+    
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    letter-spacing: .6rem;
+    background-color: rgba(34, 113, 204, 0.534);
+    transition: all .3s ease;
+    border: #6097BF 1px solid;
+    margin-top: 3%;
+    margin-left: 6vw;
+    width: 50%;
+    padding: 1%;
+    border-color: rgba(0, 255, 255, 0);
+}
+
+#buttonProtfolio:hover{
+    text-decoration-color: rgba(255, 255, 255);
+    background-color: rgba(240, 248, 255, 0);
+    border-color: white;
+}
+#iphonePicture{
+    height: 60%;
+    float: right;
+    margin-right: 25%;
+    margin-top: 11%;
+}
+#manIphone {
+    height: 35%;
+    width: 11%;
+    position: absolute;
+    left: 63.5%;
+   bottom: 23%;
+}
+/*#endregion*/
+
+
+
+
+#page2 {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    background: #6190E8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#titleAboutMe {
+margin: 0%;
+text-align: center
+
+}
+#itemsSecondPage {
+display: flex;
+height: 50%;
+width: 30%;
+margin-right: 0%;
+margin-left: 12%;
+
+}
+#informationAboutMe {
+width: 90%;
+margin: 5%;
+}
+#boxAboutMe {
+    margin-top: 50%;
+}
+#buttonDownload{
+    
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(53, 62, 72, 0.534);
+    transition: all .3s ease;
+    margin-top: 3%;
+    margin-left: 7.5vw;
+    width: 50%;
+    padding: 1%;
+    border-color: rgba(0, 255, 255, 0);
+}
+#buttonDownload:hover {
+    background-color:aquamarine;
+    transition: duration 2s;
+}
+#brainPicture{
+    position: absolute;
+    height: 20%;
+    left: 72.7%;
+    top: 122%;
+}
+#teacherPicture{
+    position: absolute;
+    height: 50%;
+    left: 52%;
+    top: 122%;
+}
+/*#region cards*/
+#cards {
+    margin: 0;
+    padding: 0;
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-family: sans-serif;
+  
+     
+}
+.container {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card {
+    position: relative;
+    border-radius: 10px;
+}
+
+.container .card .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.7s;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card:nth-child(1) .icon {
+    background: #1117dc;
+}
+
+.container .card:nth-child(2) .icon {
+    background: #1117dc;
+}
+
+.container .card:nth-child(3) .icon {
+    background: #1117dc;
+}
+
+
+.container .card .icon .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.container .card .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.container .card .face.face1 {
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+    background: #00aeff;
+    transform: translateY(0px);
+}
+
+.container .card .face.face1 .content {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.container .card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.container .card .face.face1 .content i{
+    max-width: 100px;
+}
+
+.container .card .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+    transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #414141;
+}
+
+.container .card .face.face2 .content h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+} 
+
+.container a {
+    text-decoration: none;
+    color: #414141;
+}
+/*#endregion*/
+
+#page3 {
+    background-color:rgb(18, 122, 159);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#h1ervices {
+    margin: 0%;
+    text-align: center;
+}
+#servicesText {
+    text-align: center;
+    margin-top: 5%;
+}
+#boxServices {
+    display: flex;
+    flex-direction: column;
+}
+#titleServices{
+    margin-top: 20%;
+}
+#printIcon {
+    position: absolute;
+    height: 60%;
+    z-index: 2;
+}
+#computerIcon {
+    position: absolute;
+    height: 60%;
+    z-index: 2;
+}
+#buildIcon {
+    position: absolute;
+    height: 60%;
+    z-index: 2;
+}
+
+
+
+
+#page4 {
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#BOXp4 {
+    text-align: center;
+}
+#boxFirst {
+    padding-top: 30%;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+#boxEnd {
+    width: 100%;
+    background-color:#333;
+    color: white;
+}
+#h1boxFirst {
+    margin: 0%;
+    height: 60%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: gray;
+    color: white;
+}
+#titleBoxEnd {
+    margin: 0%;
+    padding-top:3%;
+}
+#textBoxEnd {
+    margin: 0%;
+    padding-bottom: 3%;
+}
+#followMe {
+    margin: 0%;
+}
+#aToHireMe{
+background-color:gray;
+text-decoration: none;
+}
+#aToHireMe:hover{
+color: white;
+background-color:#333;
+ }
+ #aToHireMe:active{
+color:blue;
+}
+#iconsPicture {
+    max-height: 10vh
+}
+
+@media only screen and (max-width:476px)   {
+#itemsFirstPage {
+    margin: 0%;
+    width: 50%;
+}
+#iphonePicture {
+    margin-right: 10%;
+    margin-top: 30%;
+}
+#manIphone {
+    width: 30%;
+    left: 56%;
+    top: 39%;
+}
+#h1HireMe {
+    text-align: center;
+}
+#HireMe {
+    font-size: 1.3rem;
+    margin-top: 65%;
+}
+#buttonProtfolio {
+    font-size: 1rem;
+    width: 75%;
+}
+#underLineHireMe {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-size: 1rem;
+}
+
+#boxAboutMe {
+    margin-top: 20%;
+}
+#titleAboutMe {
+    font-size: 1.4rem;
+}
+#informationAboutMe {
+    width: 100%;
+    float: left;
+    font-size: 1.1rem;
+}
+#teacherPicture {
+    height: 25%;
+    left: 46%;
+}
+#brainPicture {
+    height: 8%;
+
+}
+.container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center
+
+}
+#page3{
+height: 130%;
+}
+#page4{
+    height: 130%;
+    }
+#buttonDownload {
+    width: 100%;
+    margin-left: 5%;
+    
+}
+}
