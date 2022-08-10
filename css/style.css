@@ -24,6 +24,8 @@ body {
     width: 100vw;
     height: 12%;
     box-shadow: 5px 10px #3023233e;
+    text-align: center;
+    align-items: center;
 }
 #titleNevbar {
     font-size: 2rem;
@@ -37,7 +39,7 @@ body {
     text-decoration: underline;
     text-transform: uppercase;
 }
-#allButtons {
+#humburgerList {
     width: 50%;
     font-size: 1rem;
     display: flex;
@@ -438,16 +440,20 @@ color:blue;
     width: 50%;
 }
 #iphonePicture {
-    margin-right: 10%;
-    margin-top: 30%;
+    margin-right: 6% ;
+    margin-top: 75%;
+    height: 40%;
 }
 #manIphone {
     width: 30%;
-    left: 56%;
-    top: 39%;
+    left: 60%;
+    top: 42%;
+    height: 27%;
 }
 #h1HireMe {
     text-align: center;
+    font-size: 2.6rem;
+    margin-top: 75%;
 }
 #HireMe {
     font-size: 1.3rem;
@@ -458,8 +464,8 @@ color:blue;
     width: 75%;
 }
 #underLineHireMe {
-    padding-top: 5%;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
     font-size: 1rem;
 }
 
@@ -475,11 +481,11 @@ color:blue;
     font-size: 1.1rem;
 }
 #teacherPicture {
-    height: 25%;
+    height: 15%;
     left: 46%;
 }
 #brainPicture {
-    height: 8%;
+    height: 5%;
 
 }
 .container {
@@ -499,5 +505,21 @@ height: 130%;
     width: 100%;
     margin-left: 5%;
 
+}
+#buttonProtfolio {
+    margin-left: 10%;
+    font-size: 0.7rem;
+}
+.nevbarButtons {
+    font-size: 1rem;
+}
+#titleNevbar {
+    font-size: 1.5rem;
+}
+#h1boxFirst {
+    font-size: 1.5rem;
+}
+#titleBoxEnd {
+    font-size: 1.3rem;    
 }
 }
